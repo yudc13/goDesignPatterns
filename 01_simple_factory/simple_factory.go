@@ -1,29 +1,27 @@
 package simpleFactory
 
-type API interface {
-	Fetch(url string) string
+type Gretting interface {
+	Say(content string) string
 }
 
-type NetApi struct{}
+type GoodMorning struct{}
 
-// 实现API接口
-func (netApi *NetApi) Fetch(url string) string {
-	return "hi netApi " + url
+func (gm GoodMorning) Say(content string) string {
+	return "hi good morning " + content
 }
 
-type MockApi struct{}
+type GoodEvening struct{}
 
-func (mockApi *MockApi) Fetch(url string) string {
-	return "hi mockApi " + url
+func (ge GoodEvening) Say(content string) string {
+	return "hi good evening " + content
 }
 
-// 工厂方法
-func NewApi(t string) API {
+func NewGretting(t string) Gretting {
 	switch t {
-	case "net":
-		return &NetApi{}
-	case "mock":
-		return &MockApi{}
+	case "morning":
+		return GoodMorning{}
+	case "evening":
+		return GoodEvening{}
 	default:
 		return nil
 	}
