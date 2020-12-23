@@ -4,24 +4,24 @@ type Gretting interface {
 	Say(content string) string
 }
 
-type GoodMorning struct{}
+type goodMorning struct{}
 
-func (gm GoodMorning) Say(content string) string {
+func (gm goodMorning) Say(content string) string {
 	return "hi good morning " + content
 }
 
-type GoodEvening struct{}
+type goodEvening struct{}
 
-func (ge GoodEvening) Say(content string) string {
+func (ge goodEvening) Say(content string) string {
 	return "hi good evening " + content
 }
 
 func NewGretting(t string) Gretting {
 	switch t {
 	case "morning":
-		return GoodMorning{}
+		return goodMorning{}
 	case "evening":
-		return GoodEvening{}
+		return goodEvening{}
 	default:
 		return nil
 	}
