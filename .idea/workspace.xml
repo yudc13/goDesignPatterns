@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f61c04ca-153a-4065-b604-ade7e61bc7bd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/02_factory_method/car.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_factory_method/car_factory.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_factory_method/factory_method.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_factory_method/factory_method_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/01_simple_factory/simple_factory.go" beforeDir="false" afterPath="$PROJECT_DIR$/01_simple_factory/simple_factory.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_simple_factory/simple_factory_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/01_simple_factory/simple_factory_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +36,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -40,6 +45,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
   </component>
   <component name="RunManager" selected="Go Test.TestNetApiFetch in simple_factory_test.go">
@@ -95,5 +101,8 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
